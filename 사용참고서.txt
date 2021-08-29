@@ -1,0 +1,18 @@
+datafile_install->Webex_auto 순으로 IDLE상에서 컴파일(제작: 지웅)
+
+-준비물 
+환경변수 설정 된 파이썬(https://www.python.org/downloads), 크롬드라이버(https://chromedriver.chromium.org/downloads), 셀레니움(pip3 install selenium)
+
+-대충의 작동원리
+datafile_install->data_file생성
+Webex_auto 구동시 data_file에서 데이터 가져와 사용
+
+-사용 시 유의사항
+0. 싸캠링크 란은 해당 강의의 사이버캠퍼스 강의실 링크를 말합니다. ex)http://cyber.gachon.ac.kr/course/view.php?id=37644
+1. 시간형식은 "월 7" "화 16 목 18"과 같은 형식 외에 사용X
+2. datafile_install은 시간표를 저장하는 단계로서 최초 1회만 작성, 작성 시 시간 정보 외에 공백이 없도록 작성
+3. datafile_install을 사용하여 만들어진 Webex_datafile.txt는 데이터 수정이 아닌 이상 열기X
+4. 사용 중 크롬드라이버 오류가 날 경우 크롬 드라이버를 재설치하여 업데이트
+5. 자동프로그램(Webex_auto)이 성공적으로 작동된다면 자동프로그램의 바로가기 파일을 만들어서 시작프로그램
+C:\Users\사용자이름\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup 에 복붙하여 사용하면 보다 편합니다->부팅시마다 강의시간이 아니면
+알아서 꺼지고 강의시간이면 켜짐
