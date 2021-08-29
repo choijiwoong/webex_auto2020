@@ -1,4 +1,4 @@
-datafile_install->Webex_auto 순으로 IDLE상에서 컴파일(제작: 지웅)
+datafile_install->Webex_auto 순으로 IDLE상에서 컴파일
 
 -준비물 
 환경변수 설정 된 파이썬(https://www.python.org/downloads), 크롬드라이버(https://chromedriver.chromium.org/downloads), 셀레니움(pip3 install selenium)
